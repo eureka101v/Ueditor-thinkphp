@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal
+END
+compile.include.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.include.php
+END
+compile.parse_is_expr.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.parse_is_expr.php
+END
+template.generate_debug_output.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/template.generate_debug_output.php
+END
+compile.compile_if.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_if.php
+END
+compile.compile_custom_function.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_custom_function.php
+END
+debug.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/debug.tpl
+END
+template.fetch_compile_include.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/template.fetch_compile_include.php
+END
+compile.generate_compiler_debug_output.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.generate_compiler_debug_output.php
+END
+template.destroy_dir.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/template.destroy_dir.php
+END
+compile.compile_custom_block.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_custom_block.php
+END
+compile.compile_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_config.php
+END
+template.config_loader.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/template.config_loader.php
+END
+template.build_dir.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/template.build_dir.php
+END
+compile.section_start.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/testvv/!svn/ver/2/1/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.section_start.php
+END

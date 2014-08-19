@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/testvv/!svn/ver/2/1/ThinkPHP/Tpl
+END
+dispatch_jump.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/testvv/!svn/ver/2/1/ThinkPHP/Tpl/dispatch_jump.tpl
+END
+page_trace.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/testvv/!svn/ver/2/1/ThinkPHP/Tpl/page_trace.tpl
+END
+think_exception.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/testvv/!svn/ver/2/1/ThinkPHP/Tpl/think_exception.tpl
+END
