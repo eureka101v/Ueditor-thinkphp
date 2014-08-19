@@ -12,16 +12,17 @@ Ueditor for thinkphp插件
 
 使用：
 
--给你的控制器添加ueditor方法
-
+- 给你的控制器添加ueditor方法
+```php
 public function ueditor(){
     	$data = new \Org\Util\Ueditor();
 		echo $data->output();
     }
-
+```
 - 添加以下代码到你视图的view文件
+```javascript
 <js href="__PUBLIC__/js/jquery-2.0.2.js" />
-    <js href="__PUBLIC__/ueditor/ueditor.config.js" />    
+<js href="__PUBLIC__/ueditor/ueditor.config.js" />    
     <js href="__PUBLIC__/ueditor/ueditor.all.min.js" />
     <script>
     $(function(){
@@ -30,7 +31,7 @@ public function ueditor(){
         });
     })
     </script>
-    
+```
 上传的话本地最后会默认上传到项目目录下Uploads文件夹，sae平台是名字是uploads的domain，如果想更改可配置Org\Util\Ueditor下的rootpath
 变量，子目录的更改可通过配置ueditor.json实现
     
