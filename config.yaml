@@ -1,7 +1,0 @@
----
-name: testvv
-version: 1
-...
-
-handle:
-- errordoc: 404 /Public/404.html
