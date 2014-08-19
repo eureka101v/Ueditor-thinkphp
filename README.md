@@ -3,7 +3,7 @@ Ueditor-thinkphp
 
 Ueditor for thinkphp插件
 兼容本地与sae平台
-只支持thinphp3.2
+暂只支持thinkphp3.2后的版本
 
 ### 使用说明
 安装：
@@ -21,8 +21,8 @@ public function ueditor(){
 ```
 - 添加以下代码到你视图的view文件
 ```javascript
-<js href="__PUBLIC__/js/jquery-2.0.2.js" />
-<js href="__PUBLIC__/ueditor/ueditor.config.js" />    
+    <js href="__PUBLIC__/js/jquery-2.0.2.js" />
+    <js href="__PUBLIC__/ueditor/ueditor.config.js" />    
     <js href="__PUBLIC__/ueditor/ueditor.all.min.js" />
     <script>
     $(function(){
