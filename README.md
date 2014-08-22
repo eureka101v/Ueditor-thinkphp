@@ -32,6 +32,5 @@ public function ueditor(){
     })
     </script>
 ```
-上传的话本地最后会默认上传到项目目录下Uploads文件夹，sae平台是名字是uploads的domain，如果想更改可配置Org\Util\Ueditor下的rootpath
-变量，子目录的更改可通过配置ueditor.json实现
+上传的话本地最后会默认上传到项目目录下Uploads文件夹，sae平台是名字是uploads的domain，如果想更改可通过配置Org\Util\Ueditor下的rootpath变量实现，上传子目录的更改可通过配置ueditor.json实现
     
