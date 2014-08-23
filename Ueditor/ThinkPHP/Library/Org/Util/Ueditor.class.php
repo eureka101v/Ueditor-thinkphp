@@ -273,12 +273,6 @@ class Ueditor{
 	            $data = array('state'=>'不是http链接');
 	            return json_encode($data);
 	        }
-	        //获取请求头并检测死链
-	        $heads = get_headers($imgUrl);
-	        if (!(stristr($heads[0], "200") && stristr($heads[0], "OK"))) {
-	            $data = array('state'=>'http链接失效');
-	            return json_encode($data);
-	        }
 	        //格式验证(扩展名验证和Content-Type验证)
 	        $fileType = strtolower(strrchr($imgUrl, '.'));
 	        if (!in_array($fileType, $config['allowFiles']) || stristr($heads['Content-Type'], "image")) {
@@ -307,15 +301,14 @@ class Ueditor{
 	        $rootpath = $this->rootpath;
 	        
 	        $imgname = uniqid().'.png';
-	        $filename = './Uploads'.$path.$imgname;
+	        $filename = $path.$imgname;
 	        
 	        $oriName = $m ? $m[1]:"";
 		    
-		    \Vin\FileStorage::connect(STORAGE_TYPE);
-        	if(\Vin\FileStorage::put($filename,$img)){
+        	if(\Vin\FileStorage::put($rootpath,$filename,$img)){
 			    array_push($list, array(
 			        "state" => 'SUCCESS',
-			        "url" => $rootpath.$path.$imgname,
+			        "url" => \vin\FileStorage::getPath($rootpath,$filename),
 			        "size" => strlen($img),
 			        "title" => $imgname,
 			        "original" => $oriName,
