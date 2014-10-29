@@ -5,6 +5,10 @@ Ueditor for thinkphp插件
 兼容本地与sae平台
 暂只支持thinkphp3.2后的版本
 
+### 注意
+
+会与TP的trace调试冲突，关闭trace后正常
+
 ### 使用说明
 安装：
 
